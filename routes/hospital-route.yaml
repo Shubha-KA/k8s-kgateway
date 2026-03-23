@@ -7,7 +7,6 @@ spec:
   parentRefs:
     - name: kgateway
       namespace: gateway-system
-      sectionName: hospital
   rules:
     - matches: 
         - path:
@@ -15,4 +14,4 @@ spec:
             value: /
       backendRefs:
         - name: hospital-service
-          port: 81
+          port: 80

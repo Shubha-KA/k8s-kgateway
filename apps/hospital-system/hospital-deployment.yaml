@@ -43,6 +43,6 @@ spec:
   selector:
     app: hospital-app
   ports:
-  - port: 81
+  - port: 80
     targetPort: 5000
   type: ClusterIP
