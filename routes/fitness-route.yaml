@@ -5,7 +5,8 @@ metadata:
   namespace: fitness-ns
 spec:
   parentRefs:
-    - name: k-gateway
+    - name: kgateway
+      namespace: gateway-system
   rules:
     - matches: 
         - path:
