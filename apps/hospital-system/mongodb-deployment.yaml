@@ -21,9 +21,6 @@ spec:
         env:
         - name: MONGO_INITDB_DATABASE
           value: "hospital_management"
-        volumeMounts:
-        - name: mongodb-storage
-          mountPath: /data/db
 
 ---
 apiVersion: v1
