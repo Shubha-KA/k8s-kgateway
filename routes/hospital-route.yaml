@@ -7,7 +7,6 @@ spec:
   parentRefs:
     - name: kgateway
       namespace: gateway-system
-      sectionName: hospital
   rules:
     - matches: 
         - path:
